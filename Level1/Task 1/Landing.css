@@ -1,0 +1,151 @@
+/* Reset some default styles for consistency */
+body, ul {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0a44;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #000000;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #000000;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Banner styles */
+/* Banner styles */
+.banner {
+  background-image: url("download.jpeg"); /* Replace "banner-background.jpg" with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color:#0000004d;
+  color: white;
+  padding: 10px 20px;
+  border:none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 2.0rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #000000;
+}
+/* Grid styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  height: auto;
+  width: fit-content;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  background-color:  #0d0a44;
+}
+
+.card img {
+  width: 100%;
+  max-height: 440px;
+  object-fit:cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #ddd;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
